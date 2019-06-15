@@ -3,7 +3,7 @@ from docutils import nodes
 
 
 from docutils.parsers.rst import Directive
-from docutils.parsers.rst import SphinxDirective
+#from docutils.parsers.rst import SphinxDirective
 
 try:
     from sphinx.util.compat import Directive

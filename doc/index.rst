@@ -19,6 +19,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+All is in https://github.com/miroi/demo-sphinx-extensions-for-DIRAC .
+
 Some intro text here...
 
 .. helloworld::
