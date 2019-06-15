@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to test-helloworld's documentation!
-===========================================
+Welcome to testing DIRAC documentation with sphinx-extensions!
+==============================================================
 
 .. toctree::
    :maxdepth: 2
