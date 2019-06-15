@@ -1,7 +1,6 @@
 from docutils import nodes
 from docutils.parsers.rst import Directive
 
-
 class HelloWorld(Directive):
 
     def run(self):
@@ -11,9 +10,8 @@ class HelloWorld(Directive):
 class HelloWorld2(Directive):
 
     def run(self):
-        paragraph_node = nodes.paragraph(text='Hello World!'+'...a este')
+        paragraph_node = nodes.paragraph(text='Hello World!'+'...a este nejaky iny text')
         return [paragraph_node]
-
 
 def setup(app):
     app.add_directive("helloworld", HelloWorld)

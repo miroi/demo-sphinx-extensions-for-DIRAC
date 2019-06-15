@@ -23,6 +23,6 @@ Some intro text here...
 
 .. helloworld::
 
-Some more text here...
+Teraz nejaky text z direktivy "helloworld2"
 
 .. helloworld2::
