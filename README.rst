@@ -1,7 +1,7 @@
 Test sphinx-extensions for the DIRAC documentation
 ==================================================
 
-To create the sphinx documentation:
+To generate the sphinx documentation:
 
- sphinx-build -a doc/  html/
+ sphinx-build -a docs/  html/
 
