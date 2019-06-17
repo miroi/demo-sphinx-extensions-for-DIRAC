@@ -14,15 +14,6 @@
 #
 import os
 import sys
-import docutils
-
-import sphinx.util.docutils
-from docutils.parsers.rst import Directive, directives
-
-try:
-    from sphinx.util.compat import Directive
-except ImportError:
-    from docutils.parsers.rst import Directive
 
 sys.path.insert(0, os.path.abspath('.'))
 
@@ -48,7 +39,7 @@ release = u''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ 'helloworld', 'todo' , 'sphinx.ext.autodoc.*' ]
+extensions = [ 'helloworld', 'todo' ]
 #extensions = [ 'helloworld'  ]
 
 # Add any paths that contain templates here, relative to this directory.
