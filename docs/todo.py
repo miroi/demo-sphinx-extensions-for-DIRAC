@@ -1,18 +1,8 @@
-import docutils
 from docutils import nodes
-
-
 from docutils.parsers.rst import Directive
-from docutils.parsers.rst import SphinxDirective
-
-try:
-    from sphinx.util.compat import Directive
-except ImportError:
-    from docutils.parsers.rst import Directive
 
 from sphinx.locale import _
-#from sphinx.util.docutils import SphinxDirective
-#from sphinx.util.docutils import Directive, directives
+from sphinx.util.docutils import SphinxDirective # exception: cannot import name SphinxDirective
 
 
 class todo(nodes.Admonition, nodes.Element):
