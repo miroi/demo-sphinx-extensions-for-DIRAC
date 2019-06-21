@@ -7,19 +7,15 @@ Welcome to testing DIRAC documentation with sphinx-extensions!
 ==============================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   somefile.rst
+   someotherfile.rst
+
+Hello world. Below is the list of TODOs.
+
+.. todolist::
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-All is in https://github.com/miroi/demo-sphinx-extensions-for-DIRAC .
+See also https://github.com/miroi/demo-sphinx-extensions-for-DIRAC .
 
 Some intro text here...
 
@@ -29,7 +25,3 @@ Teraz nejaky text z direktivy "helloworld2"
 
 .. helloworld2::
 
-
-* **Installation:**
-  :doc:`linked file1 <somefile>` |
-  :doc:`linked file2 <someotherfile>`
