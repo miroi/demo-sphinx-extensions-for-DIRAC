@@ -28,3 +28,8 @@ Some intro text here...
 Teraz nejaky text z direktivy "helloworld2"
 
 .. helloworld2::
+
+
+* **Installation:**
+  :doc:`linked file1 <somefile>` |
+  :doc:`linked file2 <someotherfile>`
